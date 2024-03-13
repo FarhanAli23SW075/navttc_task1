@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Background Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .background {
+            background: url('image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        .content {
+            height: 100vh;
+            overflow-y: scroll;
+            padding: 60px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <h1> Website Content</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nulla obcaecati aspernatur et ab laboriosam quaerat tempora minus! Officiis nihil eum assumenda impedit voluptates blanditiis, tempore sed adipisci, quod dignissimos alias, voluptas distinctio! Fuga, nemo? Minus quia quos modi, qui expedita quisquam voluptas nam rerum corporis officiis nostrum pariatur totam placeat nulla exercitationem doloremque perferendis nobis. Error, obcaecati a amet sit vero fugiat aliquid aliquam nemo beatae est! Molestias praesentium, soluta quae pariatur nam eius, necessitatibus suscipit minima doloribus error eligendi quos accusamus reprehenderit modi quis cupiditate! Consequatur accusantium sit dolorum consectetur, eaque vitae quidem, neque, veniam error voluptatibus perferendis. Incidunt eos deserunt reprehenderit doloribus beatae dolorum iste praesentium odit! Delectus, nemo odio! Libero quisquam quibusdam quae reiciendis, veniam mollitia delectus itaque deserunt aperiam! Corporis perferendis voluptatum natus, eaque velit cumque eum molestias quas officiis ipsam corrupti possimus recusandae deleniti debitis dolorem minima voluptas architecto laboriosam, sequi et est culpa?</p>
+        
+    </div>
+</body>
+
+</html>
